@@ -121,7 +121,9 @@ header {
     .topnav {
         margin-left: 0rem;
         all: unset;
-        display: inline;
+        display: inline-block;
+       
+       
        
         
     }
@@ -146,8 +148,10 @@ header {
     }
 
     nav li {
-        margin-left: 3em;
+        margin-left: 0;
         margin-bottom: 0;
+        padding: 10px
+        
         
     }
 
@@ -162,11 +166,6 @@ header {
 
 
 
-
-    
-
-
-  
 
     
 }
@@ -205,6 +204,7 @@ nav a {
 
 nav a:hover {
   color: turquoise;
+  text-decoration: solid;
 }
 
 #hamburger-menu:checked ~ nav {
@@ -223,13 +223,15 @@ nav a:hover {
     float: right;
     margin-right: 1rem;
     border-radius: 2rem;
-    height: 20px;
+    
+    
 }
 
 
 .fa-search {
     float: right;
     margin-right: 0rem;
+    
     
 }
 
@@ -316,14 +318,14 @@ footer a {
 footer li {
     list-style: none;
     margin-bottom: 1em;
-   margin-left: 1em;
+   
    border-bottom: white;
 }
 
 
 .footer-column {
     padding: 20px 0px;
-    padding-left: 10px;
+    padding-left: 0px;
     
 }
 
@@ -336,6 +338,7 @@ footer li {
     .footer-column {
         display: flex;
         padding: 20px 100px;
+        
     
     }
 }
