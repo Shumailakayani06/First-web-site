@@ -8,6 +8,11 @@ body {
   font-weight: 400;
 }
 
+.logo {
+    text-align: center;
+    padding: 20px;
+  }
+
 /* home picture area */
 
 .homepic {
@@ -17,6 +22,7 @@ body {
   background-blend-mode: soft-light;
   background-size: cover;
   display: grid;
+  clear: both;
 }
 
 .container {
@@ -113,9 +119,7 @@ header {
 
 
 
-.logo {
-  text-align: center;
-}
+
 
 nav {
   position: absolute;
@@ -159,6 +163,23 @@ nav a:hover {
 #hamburger-menu {
   display: none;
 }
+
+
+#search {
+    float: right;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    height: 20px;
+}
+
+
+.fa-search {
+    float: right;
+    margin-right: 0rem;
+    
+}
+
+
 
 
 
