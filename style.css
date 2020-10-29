@@ -294,3 +294,50 @@ figure img {
 }
 
 
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 1em;
+   margin-left: 1em;
+   border-bottom: white;
+}
+
+
+.footer-column {
+    padding: 20px;
+    padding-left: 10px;
+    
+}
+
+
+
+
+
+
+@media (min-width: 60rem) {
+    .footer-column {
+        display: flex;
+        padding: 20px 100px;
+    
+    }
+}
+
+
