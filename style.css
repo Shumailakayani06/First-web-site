@@ -105,6 +105,12 @@ header {
   margin-left: 1rem;
 }
 
+@media (min-width:60rem) {
+    nav {
+        margin-left: 1rem;
+    }
+}
+
 
 
 .logo {
@@ -196,19 +202,17 @@ nav a:hover {
 .home-news {
   
  
-  margin-left: 1rem;
+  margin-left: 0;
   
 }
 
 figure img {
-    max-width: 400px;
+    max-width: 350px;
     padding: 1rem;
-    
-
-    
-}
-
-.imgnews {
-    
     text-align: center;
+    
+
+    
 }
+
+
