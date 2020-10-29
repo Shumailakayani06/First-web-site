@@ -14,6 +14,10 @@ body {
     
   }
 
+  header {
+      margin-left: 1rem;
+  }
+
 /* home picture area */
 
 .homepic {
@@ -23,12 +27,13 @@ body {
   background-blend-mode: soft-light;
   background-size: cover;
   display: grid;
-  clear: both;
+  
+  margin: 0px 0px;
 }
 
 .container {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 0;
   text-align: center;
   color: white;
 }
@@ -113,9 +118,57 @@ header {
 }
 
 @media (min-width:60rem) {
-    nav {
-        margin-left: 1rem;
+    .topnav {
+        margin-left: 0rem;
+        all: unset;
+        display: inline;
+       
+        
     }
+
+    nav {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+       
+        
+       
+        
+        
+    }
+
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+        
+    }
+
+  nav a::before {
+      content: '';
+      display: block;
+      height: 5px;
+      background: turquoise;
+      position: absolute;
+  }
+
+
+
+
+
+    
+
+
+  
+
+    
 }
 
 
@@ -151,12 +204,12 @@ nav a {
 }
 
 nav a:hover {
-  color: black;
+  color: turquoise;
 }
 
 #hamburger-menu:checked ~ nav {
   display: block;
-  top: 10%;
+  top: 34%;
   background-color: white;
   
 }
@@ -186,10 +239,13 @@ nav a:hover {
 
 
 
+
+
 /* pictures homepage */
 
 .news {
-  margin: 1em 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-news {
