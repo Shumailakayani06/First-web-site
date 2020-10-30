@@ -211,26 +211,6 @@ header {
 
 @media (max-width: 60rem) {
 
-    #searchbar {
-        position: absolute;
-        top: 30%;
-        color: black;
-        border-bottom: black;
-
-    }
-
-    i.fas.fa-shopping-cart {
-        position: absolute;
-        top: 31%;
-        left: 80%;
-        color: black;
-    }
-
-    i.fas.fa-search {
-        position: absolute;
-        color: white;
-        top: 20%;
-    }
 
 }
 
@@ -305,19 +285,8 @@ nav {
   }
 
 
-  #search {
-      position: relative;
-      left: 40%;
-      border-radius: 3em;
-      height: 30px;
-      margin-bottom: 10px;
-  
-  }
 
-  i.fas.fa-search {
-      position: relative;
-      left: 34%;
-  }
+
 
 
 
