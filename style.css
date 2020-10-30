@@ -6,6 +6,8 @@ body {
   margin: 0;
   font-family: "roboto", sans-serif;
   font-weight: 400;
+
+  
 }
 
 .logo {
@@ -19,12 +21,13 @@ body {
 /* home picture area */
 
 .homepic {
-  height: 80vh;
-  background-image: url(/image/homepic.jpg);
-  background-color: #333;
-  background-blend-mode: soft-light;
-  background-size: cover;
-  display: grid;
+    height: 80vh;
+    background-image: url(/image/homepic.jpg);
+    
+    background-blend-mode: soft-light;
+    background-size: cover;
+    display: grid;
+
   
   margin: 0px 0px;
 }
