@@ -164,6 +164,24 @@ header {
       position: absolute;
   }
 
+  i.fas.fa-bars {
+      display: none;
+  }
+
+  i.fas.fa-search {
+      position: absolute;
+      color: white;
+      left: 98%;
+      top: 35%;
+  }
+
+  #search {
+      position: absolute;
+      left: 84%;
+      top: 35%;
+      
+  }
+
 
 
 
@@ -175,11 +193,10 @@ header {
 
 
 nav {
-    position: absolute;
-    text-align: left;
-    top: 20%;
-    left: 0;
    
+    text-align: left;
+    
+    left: 0;
     width: 100%;
     display: none;
   }
@@ -189,11 +206,13 @@ nav {
     padding: 0;
     list-style: none;
     background-color: black;
+    
   }
   
   nav li {
-    margin-bottom: 1em;
+    margin: 0;
     margin-left: 1em;
+    padding: 1em;
   }
   
   nav a {
@@ -235,6 +254,14 @@ nav {
       float: right;
       margin-right: 0rem;
       
+      
+      
+  }
+
+
+
+  .topnav {
+      top: 40%;
       
   }
   
