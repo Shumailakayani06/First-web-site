@@ -23,10 +23,10 @@ body {
 .homepic {
     height: 80vh;
     background-image: url(/image/homepic.jpg);
-    
     background-blend-mode: soft-light;
     background-size: cover;
     display: grid;
+    clear: both;
 
   
   margin: 0px 0px;
