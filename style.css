@@ -308,6 +308,7 @@ nav {
   .home-news {
     margin: 100px;
     position: relative;
+    text-align: center;
     
   }
   
@@ -316,37 +317,36 @@ nav {
     text-align: center;
   }
 
-  figcaption {
-      display: block;
-      max-width: 100%;
-      text-align: center;
-      position: absolute;
-      left: 50%;
-      color: grey;
-      text-decoration: solid;
+ 
       
-  }
+
 
 @media (min-width: 60rem) {
   .home-news {
-    max-height: 400px;
+    height: 300px;
     float: left;
     align-items: center;
     
   }
   .news {
-    display: flex;
-  }
-
-  figure img {
-    display: inline;
-    
+   display: flex;
+   margin-left: 10%;
+  
+   
     
   }
 
-  figcaption {
-    left: 35%;
-}
+  .news img {
+
+    max-height: 400px;
+    
+    
+      
+  }
+
+
+
+
 
 }
 
