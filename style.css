@@ -291,7 +291,7 @@ nav {
 
   #search {
       position: relative;
-      left: 50%;
+      left: 40%;
       border-radius: 3em;
       height: 30px;
       margin-bottom: 10px;
@@ -300,7 +300,14 @@ nav {
 
   i.fas.fa-search {
       position: relative;
-      left: 42%;
+      left: 34%;
+  }
+
+  i.fas.fa-shopping-cart {
+      position: absolute;
+      left: 90%;
+      top: 34%;
+    
   }
   
 
