@@ -172,16 +172,14 @@ header {
   }
 
   i.fas.fa-search {
-      position: relative;
-      color:black;
-      left: 75%;
-      top: 32%;
-      display: none;
+      
+      color:white;
+    
+    
       
   }
 
-  #search {
-      display: none;
+
  
       
   }
@@ -200,7 +198,7 @@ header {
       
           
 
-  }
+  
 
 
 
@@ -212,8 +210,26 @@ header {
   
 
 @media (max-width: 60rem) {
-    .searchbar {
-        display: none;
+
+    #searchbar {
+        position: absolute;
+        top: 30%;
+        color: black;
+        border-bottom: black;
+
+    }
+
+    i.fas.fa-shopping-cart {
+        position: absolute;
+        top: 31%;
+        left: 80%;
+        color: black;
+    }
+
+    i.fas.fa-search {
+        position: absolute;
+        color: white;
+        top: 20%;
     }
 
 }
@@ -303,13 +319,7 @@ nav {
       left: 34%;
   }
 
-  i.fas.fa-shopping-cart {
-      position: absolute;
-      left: 90%;
-      top: 34%;
-    
-  }
-  
+
 
 
 
