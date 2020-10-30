@@ -517,7 +517,7 @@ input > #search {
 
   .sucessbutton {
       display: inline-block;
-      margin-left: 5em;
+      margin-left: 4em;
   }
 
   @media (min-width: 60rem) {
@@ -537,9 +537,28 @@ input > #search {
 
       .sucessbutton {
           margin-top: 4em;
-          margin-left: 22em;
+          margin-left: 4em;
       }
   }
+
+  /* about us*/
+
+  .aboutinfo {
+    font-weight: 300;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .aboutus {
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 2em;
+    text-align: center;
+  }
+
+      
 
 
 
