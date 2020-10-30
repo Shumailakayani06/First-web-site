@@ -170,15 +170,13 @@ header {
 
   i.fas.fa-search {
       position: absolute;
-      color: white;
-      left: 98%;
+      color: rgb(1, 1, 1);
+      left: 97%;
       top: 35%;
   }
 
   #search {
-      position: absolute;
-      left: 84%;
-      top: 35%;
+ 
       
   }
 
@@ -271,6 +269,10 @@ nav {
       top: 40%;
       
   }
+
+  i.fas.fa-bars {
+      margin-left: 1rem;
+  }
   
 
 
@@ -299,6 +301,17 @@ nav {
     text-align: center;
   }
 
+  figcaption {
+      display: block;
+      max-width: 100%;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      color: grey;
+      text-decoration: solid;
+      
+  }
+
 @media (min-width: 60rem) {
   .home-news {
     max-height: 400px;
@@ -315,7 +328,14 @@ nav {
     
     
   }
+
+  figcaption {
+    left: 35%;
 }
+
+}
+
+/* main */
 
 .home-news {
   
@@ -332,6 +352,8 @@ figure img {
 
     
 }
+
+
 
 
 
