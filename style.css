@@ -414,6 +414,7 @@ footer li {
         display: flex;
         padding: 20px 100px;
         
+        
     
     }
 }
@@ -429,18 +430,115 @@ input > #search {
 .women {
     margin-left: auto;
     margin-right: auto;
+    clear: both;
   }
   
   .women-news {
-    margin: 100px;
+    
     position: relative;
     text-align: center;
     
   }
   
-  .home-news img {
+  .women-img  {
     display: block;
     text-align: center;
+    
+    
+  }
+
+
+  @media (min-width: 60rem) {
+    .women {
+      height: 300px;
+      float: left;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      
+    }
+    .women-news {
+     display: inline-block;
+     margin-left: 10%;
+    
+     
+      
+    }
+  
+    .women-img {
+  
+      display: inline-block;
+      
+      
+        
+    }
+
+    .footer-women {
+        position: absolute;
+        top: 250%;
+    }
+
+   
+
+  
+  
+  
+  
+  
+  }
+
+
+  /* sucess page */
+
+  .sucess {
+      margin-left: auto;
+      margin-right: auto;
+     
+      
+  }
+
+  .sucesss {
+      display: inline-block;
+      text-align: center;
+      
+  }
+
+  .sucess-img {
+      padding-top: 20px;
+      margin-left: 5rem;
+  }
+
+  .successinfo {
+    font-weight: 300;
+    display: block;
+    font-size: 2rem;
+    margin-left: 2em;
+  }
+
+  .sucessbutton {
+      display: inline-block;
+      margin-left: 5em;
+  }
+
+  @media (min-width: 60rem) {
+      .sucess-img {
+          position: absolute;
+          left: 30%;
+          
+      }
+
+      .successinfo {
+        font-weight: 300;
+        display: block;
+        font-size: 2rem;
+        margin-top: 8em;
+        margin-left: 3em;
+      }
+
+      .sucessbutton {
+          margin-top: 4em;
+          margin-left: 22em;
+      }
   }
 
 
