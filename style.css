@@ -175,71 +175,6 @@ header {
 
 
 
-nav {
-  position: absolute;
-  text-align: left;
-  top: 20%;
-  left: 0;
- 
-  width: 100%;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: black;
-}
-
-nav li {
-  margin-bottom: 1em;
-  margin-left: 1em;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  
-}
-
-nav a:hover {
-  color: turquoise;
-  text-decoration: solid;
-}
-
-#hamburger-menu:checked ~ nav {
-  display: block;
-  top: 34%;
-  background-color: white;
-  
-}
-
-#hamburger-menu {
-  display: none;
-}
-
-
-#search {
-    float: right;
-    margin-right: 1rem;
-    border-radius: 2rem;
-    
-    
-    
-}
-
-
-.fa-search {
-    float: right;
-    margin-right: 0rem;
-    
-    
-}
-
-
 
 
 
@@ -249,7 +184,21 @@ nav a:hover {
 
 /* pictures homepage */
 
-
+.news {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-news {
+    margin: 100px;
+    position: relative;
+    
+  }
+  
+  .home-news img {
+    display: block;
+    text-align: center;
+  }
 
 @media (min-width: 60rem) {
   .home-news {
