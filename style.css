@@ -548,6 +548,7 @@ input > #search {
     display: block;
     font-size: 2rem;
     text-align: center;
+    background-color: rgba(207, 207, 207, 0.75);
   }
 
   .aboutus {
@@ -567,6 +568,67 @@ input > #search {
 
   }
 
+  @media (min-width: 60rem) {
+    .aboutus {
+
+        left: 42%;
+    }
+    
+  }
+
+
+  /* Contact us */
+
+  .contactus {
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 2em;
+    text-align: center;
+    color: black;
+    border: 5px  black;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    left: 25%;
+  }
+
+  .contactp {
+    font-weight: 300;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(207, 207, 207, 0.75);
+  }
+
+  .contactli {
+      list-style: none;
+      margin: 20px;
+      
+      
+  }
+
+  .contactul {
+      background-color: lightgray;
+      padding: 20px;
+  }
+
+
+  .contact-column-li {
+    list-style: none;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    
+  }
+  
+  .contact-column-ul a{
+      color: black;
+      
+
+  }
 
 
       
