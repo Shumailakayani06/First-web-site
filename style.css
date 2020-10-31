@@ -585,7 +585,7 @@ input > #search {
     font-weight: 900;
     margin-top: 2em;
     text-align: center;
-    color: black;
+    color:black;
     border: 5px  black;
     padding: 6px 12px;
     display: inline-block;
@@ -599,7 +599,9 @@ input > #search {
     display: block;
     font-size: 2rem;
     text-align: center;
-    background-color: rgba(207, 207, 207, 0.75);
+    background-color:black;
+    color: white;
+    
   }
 
   .contactli {
@@ -610,7 +612,7 @@ input > #search {
   }
 
   .contactul {
-      background-color: lightgray;
+      background-color: white;
       padding: 20px;
   }
 
@@ -625,9 +627,13 @@ input > #search {
   }
   
   .contact-column-ul a{
-      color: black;
+      color: white;
       
 
+  }
+
+  .contact-column-ul {
+      background-color: black;
   }
 
 
