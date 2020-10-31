@@ -37,35 +37,68 @@
     </header>
 
     <h1 class="payment">Payment</h1>
-    <p>Choose your payment method bellow</p>
+    <p class="paymentp">Choose your payment method bellow</p>
 
-    <div>
+    <div class="checkout-img">
         <a href="#"><img src="/image/visacard.jpg"  alt="picture of a payment card"></a>
         <a href="#"><img src="/image/paypal.jpg"alt="picture of paypal option"></a>
 
     </div>
 
-   <div>
+    <h2 class="checkouth2">Billing Information</h2>
+
+   <div class="checkoutdiv">
     <form>
-       <ul>
-           <li> <label for="name">Name*</label>
+       <ul class="checkoutul">
+           <li class="checkoutlist"> <label for="name">Name*</label>
         <input type="text" id="name" placeholder="enter your name"></li>
 
-       <li> <label for="email">Email*</label>
+       <li class="checkoutlist"> <label for="email">Email*</label>
         <input type="email" id="email" placeholder="enter you email"></li>
 
-        <li><label for="password">Password*</label>
+        <li class="checkoutlist"><label for="password">Password*</label>
         <input type="password" id="password" placeholder="choose a password"></li>
 
-        <li><label for="bio"></label>
+        <li class="checkoutlist"> <label for="name">Adress*</label>
+            <input type="text" id="name" placeholder="enter your adress"></li>
+
+            <li class="checkoutlist"> <label for="name">Country*</label>
+                <input type="text" id="name" placeholder="enter your country name"></li>
+    <h2 class="checkouth2li">Credit Card Information</h2>
+
+    <li class="checkoutlist"> <label for="number">Card number*</label>
+        <input type="text" id="name" placeholder="enter your card number"></li>
+        <li class="checkoutlist"> <label for="name">Cardholder name*</label>
+            <input type="text" id="name" placeholder="enter your name"></li>
+
+        <li class="checkoutlist"> 
+            <label for="quantity">Expire date</label>
+<select name="quantity" id="quantity">
+    <option value="q1">2/20</option>
+    <option value="q2">3/21</option>
+    <option value="q3">4/22</option>
+    <option value="q4">5/23</option>
+    <option value="q5">6/24</option>
+    <option value="q6">7/25</option>
+</select></li>
+            <li class="checkoutlist"> <label for="text">CVV*</label>
+                <input type="text" id="name" placeholder="enter your number"></li>
+              
+
+        <li class="checkoutlist"><label for="bio"></label>
             <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Your message..."></textarea></li>
 
-        <li><input type="submit" value="Submit"> </li>    
+        <li class="checkoutlist"><input type="submit" value="Submit"> </li>    
         </ul>
 
 
     </form>
 </div> 
+
+<div>
+    <a href="wspecific.html" class="button button-accent button-back">Back</a>
+    <a href="/checkoutsuccess.html" class="button button-accent ">Checkout</a>
+</div>
 
 
 
