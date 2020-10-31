@@ -548,7 +548,8 @@ input > #search {
     display: block;
     font-size: 2rem;
     text-align: center;
-    background-color: rgba(207, 207, 207, 0.75);
+    background-color: black;
+    color: white;
   }
 
   .aboutus {
@@ -572,6 +573,11 @@ input > #search {
     .aboutus {
 
         left: 42%;
+    }
+
+    .aboutinfo {
+        background-color: white;
+        color: black;
     }
     
   }
@@ -609,6 +615,7 @@ input > #search {
       margin: 20px;
       
       
+      
   }
 
   .contactul {
@@ -635,6 +642,27 @@ input > #search {
   .contact-column-ul {
       background-color: black;
   }
+
+  @media (min-width: 60rem) {
+    .contactus {
+        left: 40%;
+    }
+
+    .contactp {
+        color: black;
+        background-color: white;
+    }
+
+    .contact-column-li {
+
+        left: 40%;
+     
+    }
+
+}
+
+  
+  
 
 
       
