@@ -696,14 +696,13 @@ input > #search {
 .checkout-img {
     position: relative;
     left: 10%;
-    padding-bottom: 15%;
-    padding-top: 15%;
+   
     
 }
 
 .checkouth2 {
     position: relative;
-    left: 20%;
+    left: 10%;
     
 }
 
@@ -715,6 +714,28 @@ input > #search {
 
 .button-back:hover {
     background-color: black;
+
+}
+
+@media (min-width: 60rem) {
+
+    .payment {
+        left: 40%;;
+    }
+
+    .checkout-img {
+        left: 35%;
+    }
+
+   .checkouth2 {
+       
+    left: 2em;
+   }
+
+   .checkout-button {
+       position: relative;
+       left: 38%;
+   }
 
 }
 
