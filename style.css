@@ -47,7 +47,7 @@ h1 {
 
 .slogan {
   font-size: 2.5rem;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   font-weight: 900;
   margin-top: 1em;
 }
@@ -81,7 +81,7 @@ h1 {
 
 @media (min-width: 60rem) {
   .button {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -107,6 +107,28 @@ h1 {
   background: black;
   padding: 0 0.25em;
   text-align: center;
+}
+
+@media (max-width:60rem) {
+ .button {
+  
+  font-size: .8rem;
+ 
+ }
+
+ .slogan {
+    font-size: 2rem;
+    margin-bottom: 2em;
+ }
+
+ .slogan span {
+     font-size: 1.5rem;
+ }
+
+
+
+
+
 }
 
         
@@ -212,6 +234,7 @@ header {
 @media (max-width: 60rem) {
 
 
+
 }
 
 
@@ -276,12 +299,13 @@ nav {
 
 
   .topnav {
-      top: 40%;
+      top: 30%;
       
   }
 
   i.fas.fa-bars {
       margin-left: 1rem;
+      margin-bottom: 2em;
   }
 
 
@@ -330,7 +354,7 @@ nav {
   }
   .news {
    display: flex;
-   margin-left: 10%;
+   margin-left: 15%;
   
    
     
@@ -379,7 +403,8 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-right: 0;
 }
 
 footer a {
@@ -413,25 +438,21 @@ footer li {
     .footer-column {
         display: flex;
         padding: 20px 100px;
+        position: absolute;
+        top: 50%;
         
         
     
     }
 }
 
-input > #search {
-    position: absolute;
-    left: 50%;
-}
+
+
 
 
 /* women page */
 
-.women {
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-  }
+
   
   .women-news {
     
@@ -473,10 +494,10 @@ input > #search {
         
     }
 
-    .footer-women {
-        position: absolute;
-        top: 250%;
-    }
+  .footer-column {
+      position: relative;
+      top: 70%;
+  }
 
    
 
@@ -546,14 +567,14 @@ input > #search {
   .aboutinfo {
     font-weight: 300;
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:white;
+    color:black;
   }
 
   .aboutus {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1.5em;
     font-weight: 900;
     margin-top: 2em;
@@ -586,7 +607,7 @@ input > #search {
   /* Contact us */
 
   .contactus {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1.5em;
     font-weight: 900;
     margin-top: 2em;
@@ -603,10 +624,10 @@ input > #search {
   .contactp {
     font-weight: 300;
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    background-color:black;
-    color: white;
+    background-color: white;
+    color: black;
     
   }
 
@@ -645,7 +666,7 @@ input > #search {
 
   @media (min-width: 60rem) {
     .contactus {
-        left: 40%;
+        left: 42%;
     }
 
     .contactp {
@@ -670,10 +691,10 @@ input > #search {
 }
 
 .payment {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1.5em;
     font-weight: 900;
-    margin-top: 2em;
+    margin-top: .5em;
     text-align: center;
     color:black;
     border: 5px  black;
@@ -681,21 +702,21 @@ input > #search {
     display: inline-block;
     border-radius: 10px;
     position: relative;
-    left: 25%;
+    left: 30%;
 }
 
 .paymentp {
     font-weight: 300;
     display: block;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black
 }
 
 .checkout-img {
     position: relative;
-    left: 10%;
+    left: 11%;
    
     
 }
@@ -709,6 +730,7 @@ input > #search {
 .button-back {
     color: black;
     border-color: black;
+    margin-right: 2em;
 
 }
 
@@ -717,10 +739,14 @@ input > #search {
 
 }
 
+.checkout-button {
+    margin-left: 4em;
+}
+
 @media (min-width: 60rem) {
 
     .payment {
-        left: 40%;;
+        left: 42%;;
     }
 
     .checkout-img {
@@ -734,10 +760,85 @@ input > #search {
 
    .checkout-button {
        position: relative;
-       left: 38%;
+       left: 32%;
    }
 
 }
+
+
+/* women specific */
+
+.womenspecific {
+    display: inline-block;
+    position: relative;
+    
+    
+
+    
+}
+.womenspecific img {
+
+    position: relative;
+    height: 400px;
+    margin-left: 2em;
+    
+}
+
+.size {
+    list-style: none;
+}
+
+.sizediv {
+    display: block;
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+.sizeli {
+    display: inline-block;
+}
+
+.colordiv {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+.quantitydiv {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+.womens-specific-div {
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+@media (min-width: 60rem) {
+ .womenspecific {
+     display: grid;
+ }
+
+ .sizediv {
+     margin-left: 45%;
+ }
+
+ .colordiv {
+     margin-left: 40%;
+ }
+
+ .womens-specific-div {
+     margin-left: 36%;
+ }
+
+
+
+}
+
+
+
+
+
 
   
   
