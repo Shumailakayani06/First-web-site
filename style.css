@@ -363,7 +363,7 @@ nav {
 
 
 @media (max-width: 40rem) {
-    #deschome {
+    .deschome {
         margin-left: 3em;
     }
 }
