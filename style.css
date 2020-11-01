@@ -29,11 +29,7 @@ body {
     background-size: cover;
     display: grid;
     clear: both;
-    
-    
-
-  
-  margin: 0px 0px;
+    margin: 0px 0px;
 }
 
 .homepic img {
@@ -96,6 +92,7 @@ h1 {
     font-size: 1rem;
   }
 }
+
 
 /* text box */ 
 
@@ -212,11 +209,10 @@ header {
     
       
   }
+}
 
 
- 
-      
-  }
+
 
   #searchbar {
       position: absolute;
@@ -231,24 +227,6 @@ header {
  
       
           
-
-  
-
-
-
-
-
-
-
-
-  
-
-@media (max-width: 60rem) {
-
-
-
-}
-
 
 
 
@@ -302,13 +280,6 @@ nav {
   }
   
   
-
-  
-  
-
-
-
-
 
   .topnav {
       top: 30%;
@@ -384,20 +355,11 @@ nav {
     display: inline-block;
     
     
-    
-    
-    
-      
-  }
-
-
-  
-
-
-
-
+ }
 
 }
+
+
 
 
 @media (max-width: 40rem) {
@@ -405,6 +367,9 @@ nav {
         margin-left: 3em;
     }
 }
+
+
+
 
 
 
@@ -533,14 +498,13 @@ footer li {
       top: 70%;
   }
 
-   
 
   
-  
-  
-  
-  
   }
+
+
+
+
 
 
   /* Men */
@@ -596,6 +560,8 @@ footer li {
 }
 
 
+
+
   /* sucess page */
 
   .sucess {
@@ -649,6 +615,9 @@ footer li {
       }
   }
 
+
+
+
   /* about us*/
 
   .aboutinfo {
@@ -689,6 +658,8 @@ footer li {
     }
     
   }
+
+
 
 
   /* Contact us */
@@ -768,6 +739,8 @@ footer li {
     }
 
 }
+
+
 
 
 /* checkout */
@@ -853,6 +826,8 @@ footer li {
 }
 
 
+
+
 /* women specific */
 
 .womenspecific {
@@ -915,6 +890,76 @@ footer li {
  }
 
  .womens-specific-div {
+     margin-left: 36%;
+ }
+
+
+
+}
+
+
+/* men specific specific */
+
+.menspecific {
+    display: inline-block;
+    position: relative;
+    
+    
+
+    
+}
+.menspecific img {
+
+    position: relative;
+    height: 400px;
+    margin-left: 2em;
+    
+}
+
+.size {
+    list-style: none;
+}
+
+.sizediv {
+    display: block;
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+.sizeli {
+    display: inline-block;
+}
+
+.colordiv {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+.quantitydiv {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+
+.men-specific-div {
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+@media (min-width: 60rem) {
+ .menspecific {
+     display: grid;
+ }
+
+ .sizediv {
+     margin-left: 45%;
+ }
+
+ .colordiv {
+     margin-left: 40%;
+ }
+
+ .men-specific-div {
      margin-left: 36%;
  }
 
