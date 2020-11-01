@@ -337,12 +337,12 @@ nav {
 /* pictures homepage */
 
 .news {
-    margin-left: auto;
-    margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
   }
   
   .home-news {
-    margin: 100px;
+    margin: 2em;
     position: relative;
     text-align: center;
     
@@ -353,6 +353,9 @@ nav {
     text-align: center;
   }
 
+
+ 
+
  
       
 
@@ -360,7 +363,7 @@ nav {
 @media (min-width: 60rem) {
   .home-news {
     height: 300px;
-    float: left;
+    display: inline-block;
     align-items: center;
     margin-top: 1em;
     
@@ -368,7 +371,7 @@ nav {
   }
   .news {
    display: inline-block;
-   margin-left: 2em;
+   margin-left: 3em;
    margin-bottom: 4em;
   
    
@@ -377,7 +380,7 @@ nav {
 
   .news img {
 
-    max-height: 400px;
+    max-height: 350px;
     display: inline-block;
     
     
@@ -394,6 +397,15 @@ nav {
 
 
 }
+
+
+@media (max-width: 40rem) {
+    #deschome {
+        margin-left: 3em;
+    }
+}
+
+
 
 /* main */
 
