@@ -23,13 +23,21 @@ body {
 .homepic {
     height: 80vh;
     background-image: url(/image/homepic.jpg);
-    background-blend-mode: lighten;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.271);
+   
     background-size: cover;
     display: grid;
     clear: both;
+    
+    
 
   
   margin: 0px 0px;
+}
+
+.homepic img {
+    filter: brightness(20%);
 }
 
 .container {
@@ -37,6 +45,10 @@ body {
   margin: 0 0;
   text-align: center;
   color: white;
+  opacity: 3;
+
+  
+  
 }
 
 h1 {
