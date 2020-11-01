@@ -362,11 +362,14 @@ nav {
     height: 300px;
     float: left;
     align-items: center;
+    margin-top: 1em;
+    
     
   }
   .news {
-   display: flex;
-   margin-left: 15%;
+   display: inline-block;
+   margin-left: 2em;
+   margin-bottom: 4em;
   
    
     
@@ -375,10 +378,16 @@ nav {
   .news img {
 
     max-height: 400px;
+    display: inline-block;
+    
+    
     
     
       
   }
+
+
+  
 
 
 
@@ -519,6 +528,59 @@ footer li {
   
   
   }
+
+
+  /* Men */
+
+
+
+
+  
+.men-news {
+    
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .men-img  {
+    display: block;
+    text-align: center;
+    
+    
+  }
+
+
+  @media (min-width: 60rem) {
+    .men {
+      height: 300px;
+      float: left;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      
+    }
+    .men-news {
+     display: inline-block;
+     margin-left: 10%
+    
+     
+      
+    }
+  
+    .men-img {
+  
+      display: inline-block;
+      
+      
+        
+    }
+
+    .containergallery {
+
+        margin-left: 5em;
+    }
+}
 
 
   /* sucess page */
